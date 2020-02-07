@@ -20,6 +20,10 @@
       $(".site-wrap").removeClass("hide");
     }, 3000);
   });
+  //aos
+  setTimeout(function() {
+    AOS.init();
+  }, 3500);
 
   $("nav .dropdown").hover(
     function() {
